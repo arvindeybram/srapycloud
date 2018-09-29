@@ -1,4 +1,5 @@
 import scrapy
+from extruct.w3microdata import MicrodataExtractor
 class urlextractor(scrapy.Spider):
 	name = 'link_checker'
 	with open("t1.txt", "rt") as f:
